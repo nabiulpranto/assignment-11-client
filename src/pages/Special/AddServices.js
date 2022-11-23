@@ -40,7 +40,7 @@ const AddServices = () => {
     }
     return (
         <form onSubmit={handleUpdate}>
-            <h4 className="text-4xl">Add a new Service</h4>
+            <h4 className="text-4xl">Add a Another Service</h4>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                 <input name='index' type="text" placeholder="Index" className="input input-bordered w-full " />
                 <input name='image' type="text" placeholder="Image Link" className="input input-bordered w-full " />
@@ -49,7 +49,7 @@ const AddServices = () => {
 
             </div>
             <textarea name='description' className="textarea textarea-bordered h-24 w-full" placeholder="Description"></textarea>
-            <input className='btn btn-primary' type="submit" value="Add this Service" />
+            <input className='btn btn-primary mb-2' type="submit" value="Add this Service" />
         </form>
     );
 };
