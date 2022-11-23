@@ -12,7 +12,7 @@ const ShortServices = () => {
     return (
         <div className='mb-300 ml-10 bg-indigo-100	'>
             <div className='text-center mb-4'>
-                <p className="text-2xl font-bold text-orange-600">Services</p>
+                <p className="text-2xl font-bold text-indigo-900">Services</p>
                 <h2 className="font-semibold text-5xl">Our Menu</h2>
                 <p>Made by Hand with Love<br/> Wanna Try!!!</p>
            
