@@ -32,12 +32,12 @@ const Login = () => {
     }
 
     return (
-        <div className="hero w-full my-20">
-            <div className="hero-content grid gap-20 md:grid-cols-2 flex-col lg:flex-row">
+        <div className="hero w-full my-20 bg-indigo-300	" 	>
+            <div className="hero-content grid gap-20 md:grid-cols-2 flex-col lg:flex-row 	">
                 <div className="text-center lg:text-left">
                     <img src='' alt="" />
                 </div>
-                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 py-20">
+                <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 py-20 bg-indigo-100	">
                     <h1 className="text-5xl text-center font-bold">Login</h1>
                     <form onSubmit={handleLogin} className="card-body">
                         <div className="form-control">

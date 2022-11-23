@@ -12,7 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <ShortServices></ShortServices><br></br><br></br>
-            <button className='ml-100 btn btn-zinc-50 center'><Link to='/services'>See All</Link></button><br></br><br></br>
+            <button className='ml-100 btn btn-primary center'><Link to='/services'>See All</Link></button><br></br><br></br>
         </div>
     );
 };

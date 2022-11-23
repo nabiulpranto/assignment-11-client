@@ -26,7 +26,7 @@ const ServiceDetails = () => {
             </div>
             <div className='card card-compact w-250 my-50 pt-50'>
                 <h2 className='mt-50'>Review Section:</h2><br></br>
-                <p>to See your Review Go to <Link to='/myreview'><button className='btn btn-primary'>Review</button></Link> Page</p>
+                <p>to See your Review Go to <Link to='/myreview'><button className='btn btn-primary btn-xs'>Review</button></Link> Page</p>
                 <AllReview></AllReview>
                 <MyReview></MyReview>
 
@@ -37,3 +37,4 @@ const ServiceDetails = () => {
 };
 
 export default ServiceDetails;
+
