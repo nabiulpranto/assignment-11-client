@@ -42,7 +42,7 @@ const MyReview = () => {
                 <input name='email' type="text" placeholder="Your Email" defaultValue={user?.email} className="input input-bordered w-full" readOnly />
             </div>
             <textarea name='message' className="textarea textarea-bordered h-24 w-full" placeholder="Your Review"></textarea>
-            <input className='btn btn-primary' type="submit" value="Submit Review" />
+            <input className='btn btn-primary mb-2' type="submit" value="Submit Review" />
         </form>
     );
 };
