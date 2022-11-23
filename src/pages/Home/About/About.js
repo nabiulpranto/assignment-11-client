@@ -7,7 +7,7 @@ const About = () => {
                 <div className="max-w-md">
                     <p className="text-2xl font-bold text-orange-600">About Us</p>
                     <h1 className="text-5xl font-bold">Hello All!</h1>
-                    <p className="py-6">We Are Providing The Best Service in Town. If You Wanna Drink Contact with Us. <br/> Juice Bar,<br/>Dhaka </p>
+                    <p className="py-6 pr-8">We Are Providing The Best Service in Town. If You Wanna Drink Contact with Us. <br/> Juice Bar,<br/>Banasree,Dhaka </p>
                 </div>
             </div>
         </div>
