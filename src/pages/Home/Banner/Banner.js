@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Banner = () => {
     return (
         <div className="card lg:card-side bg-indigo-200	 shadow-xl mt-6 mb-8">
-            <div className=''>
+            <div>
                 <figure><img className=' bg-center' src="https://i.ibb.co/hWpdsJV/juice-bar.png" alt="Kitchen"
                 /></figure>
             </div>
