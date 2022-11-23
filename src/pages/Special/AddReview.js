@@ -17,7 +17,7 @@ const MyReview = () => {
             message,
         }
 
-        fetch('https://kitchen-food-server-nayem-mursalin.vercel.app/reviews', {
+        fetch('https://assignment-11-server-lovat.vercel.app/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
