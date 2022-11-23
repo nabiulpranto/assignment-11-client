@@ -13,7 +13,7 @@ const ServiceDetails = () => {
     console.log('test' ,name)
     return (
         <div className='mb-100'>
-            <div className="card text-center card-compact w-200 bg-indigo-300	 shadow-xl m-50 ">
+            <div className="card text-center card-compact w-200 bg-indigo-300 shadow-xl m-50 ">
                 <PhotoProvider>
                     <PhotoView src={picture}>
                         <figure><img className='max-w-md' src={picture} alt="Food" /></figure>

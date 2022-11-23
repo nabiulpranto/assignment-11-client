@@ -62,7 +62,7 @@ const Header = () => {
                             <button onClick={handleLogOut} className='btn btn-outline btn-primary'>Sign Out</button>
                         </>
                         :
-                        <button className='btn btn-outline btn-primary'><Link to='/login'>login</Link></button>
+                        <button className='btn btn-outline btn-primary'><Link to='/login'>Login</Link></button>
                 }
             </div>
         </div>

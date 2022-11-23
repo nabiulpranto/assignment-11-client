@@ -9,7 +9,7 @@ const UpdateReview = () => {
     const navigate = useNavigate();
     // to get data feom the db
     useEffect(() => {
-        fetch(`https://kitchen-food-server-nayem-mursalin.vercel.app/reviews/${id}`)
+        fetch(`https://assignment-11-server-lovat.vercel.app/reviews/${id}`)
             .then(res => res.json())
             .then(data => {
                 if (data.success) {
@@ -32,7 +32,7 @@ const UpdateReview = () => {
             reviewtext: e.target.reviewtext.value
         }
 
-        fetch(`https://kitchen-food-server-nayem-mursalin.vercel.app/reviews/${id}`, {
+        fetch(`https://assignment-11-server-lovat.vercel.app/reviews/${id}`, {
 
             method: "PATCH",
             headers: {
