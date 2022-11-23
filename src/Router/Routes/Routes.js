@@ -52,7 +52,7 @@ const router = createBrowserRouter([
             {
                 path: '/services/:id',
                 element: <ServiceDetails></ServiceDetails>,
-                loader: ({ params }) => fetch(`https://kitchen-food-server-nayem-mursalin.vercel.app/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://assignment-11-server-lovat.vercel.app/services/${params.id}`)
             }
         ]
     }

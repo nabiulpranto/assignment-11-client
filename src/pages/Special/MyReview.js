@@ -36,27 +36,27 @@ const AddReview = () => {
         }
     }
 
-    // const handleUpdate = (id) => {
-    //     fetch(`https://kitchen-food-server-nayem-mursalin.vercel.app/reviews/${id}`, {
-    //         method: 'PATCH',
-    //         headers: {
-    //             'content-type': 'application/json'
-    //         },
-    //         body: JSON.stringify({ status: 'Approved' })
-    //     })
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             console.log(data);
-    //             if (data.modifiedCount > 0) {
-    //                 const remaining = review.filter(rev => rev._id !== id);
-    //                 const approving = review.find(rev => rev._id === id);
-    //                 approving.status = 'Approved'
+    const handleUpdate = (id) => {
+        fetch(`https://assignment-11-server-lovat.vercel.app/reviews/${id}`, {
+            method: 'PATCH',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify({ status: 'Approved' })
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                if (data.modifiedCount > 0) {
+                    const remaining = review.filter(rev => rev._id !== id);
+                    const approving = review.find(rev => rev._id === id);
+                    approving.status = 'Approved'
 
-    //                 const newOrders = [approving, ...remaining];
-    //                 setReview(newOrders);
-    //             }
-    //         })
-    // }
+                    const newOrders = [approving, ...remaining];
+                    setReview(newOrders);
+                }
+            })
+    }
 
 
 
